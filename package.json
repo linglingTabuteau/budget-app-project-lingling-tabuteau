@@ -1,12 +1,12 @@
 {
-    "name": "budget_project",
-    "version": "1.0.0",
-    "description": "Project Description",
-    "scripts": {
-      "start": "serve"
-    },
-    "dependencies": {
-      "serve": "^10.0.1"
-    },
-    "author": "Pulkit Aggarwal"
-  }
+  "name": "budget_project",
+  "version": "1.0.0",
+  "description": "simple organisation of your budget",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "^10.0.1"
+  },
+  "author": "Lingling Tabuteau"
+}
