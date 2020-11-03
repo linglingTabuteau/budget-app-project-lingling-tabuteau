@@ -1,14 +1,3 @@
-const { Client } = require('pg');
-const client = new Client({
-  connectionString: process.env.DATABASE_URL,
-  ssl: true,
-});
-client.connect();
-client.query('SELECT NOW()', (err, res) => {
-  console.log(err, res)
-  client.end()
-});
-
 // use IIFE (immediate ivoked function) to keep private vairables??
 
 // budget module (budget controller)
